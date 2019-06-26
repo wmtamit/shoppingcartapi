@@ -1,0 +1,49 @@
+{
+  "name": "adonis-api-app",
+  "version": "4.1.0",
+  "adonis-version": "4.1.0",
+  "description": "Adonisjs boilerplate for API server with pre-configured JWT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node ace test"
+  },
+  "keywords": [
+    "adonisjs",
+    "adonis-app"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@adonisjs/ace": "^5.0.8",
+    "@adonisjs/auth": "^3.0.7",
+    "@adonisjs/bodyparser": "^2.0.5",
+    "@adonisjs/cors": "^1.0.7",
+    "@adonisjs/drive": "^1.0.4",
+    "@adonisjs/fold": "^4.0.9",
+    "@adonisjs/framework": "^5.0.9",
+    "@adonisjs/ignitor": "^2.0.8",
+    "@adonisjs/lucid": "^6.1.3",
+    "@adonisjs/mail": "^3.0.9",
+    "@adonisjs/redis": "^2.0.7",
+    "@adonisjs/validator": "^5.0.6",
+    "@adonisjs/vow": "^1.0.17",
+    "adonis-kue": "^5.0.1",
+    "adonis-papaparse-provider": "^1.0.0-beta.0",
+    "adonis-redis": "^1.0.1",
+    "adonis-spreadsheet": "^1.0.1",
+    "aws-sdk": "^2.421.0",
+    "bee-queue": "^1.2.2",
+    "csv-parser": "^2.1.0",
+    "exceljs": "^1.7.0",
+    "ioredis": "^4.6.2",
+    "moment": "^2.24.0",
+    "mysql": "^2.16.0",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {},
+  "autoload": {
+    "App": "./app"
+  }
+}
