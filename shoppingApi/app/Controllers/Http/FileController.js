@@ -93,6 +93,16 @@ class FileController {
       return response.status(404).json("Not Found any data base ");
     }
   }
+  async viewproduct({ request, response, auth }) {
+    try {
+      const allproduct = await Product.all();
+      return response.success(200, {allproduct});
+    } catch (error) {
+      console.log("Error", e);
+      return response.error(500, e);
+    }
+    
+  }
   async uploadproduct({ request, response, auth }) {
     try {
       const createsign = (expiredurltime=1) => {
