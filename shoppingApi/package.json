@@ -33,7 +33,7 @@
     "adonis-papaparse-provider": "^1.0.0-beta.0",
     "adonis-redis": "^1.0.1",
     "adonis-spreadsheet": "^1.0.1",
-    "aws-sdk": "^2.421.0",
+    "aws-sdk": "^2.814.0",
     "bee-queue": "^1.2.2",
     "csv-parser": "^2.1.0",
     "exceljs": "^1.7.0",
