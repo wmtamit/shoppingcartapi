@@ -36,7 +36,7 @@
     "aws-sdk": "^2.421.0",
     "bee-queue": "^1.2.2",
     "csv-parser": "^2.1.0",
-    "exceljs": "^1.7.0",
+    "exceljs": "^1.15.0",
     "ioredis": "^4.6.2",
     "moment": "^2.24.0",
     "mysql": "^2.16.0",
